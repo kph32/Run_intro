@@ -1,0 +1,331 @@
+.box1 {
+    min-height: 600px;
+    text-align: center;
+    margin-top: -20px;
+    visibility: hidden;
+
+}
+.box1 h1{
+    padding-top: 70px;
+}
+.box1 h1:after,.box2 h1:after,.box3 h1:after,.box8 h1:after,.box10 h1:after,.box11 h1:after,.box12 h1:after{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    margin: 15px auto;
+}
+i {
+    font-size: 5em;
+    color: #005ACB;
+}
+
+.box2{
+    min-height: 700px;
+    background: url(../../images/asset33.jpeg) center center no-repeat;
+    background-size: cover;
+    margin-top: -150px;
+    text-align: center;
+    padding: 10px 0;
+    visibility: hidden;
+}
+.box2 .gameitem{
+    position: relative;
+    margin:10px;
+    box-shadow: 
+}
+.box2 .gameitem img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box3{
+  position:relative; 
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  background-image: linear-gradient(135deg, #349BC7 0%, #236DCF 100%); 
+  margin-top: -25px; 
+}
+.box3 h1{
+    text-align: center;
+    padding: 20px;
+}
+#page {
+  width: 50%;
+  margin: 0 auto;
+  min-height: 700px;
+  visibility: hidden;
+}
+
+#tabs {
+  padding-top: 40px;
+}
+
+.c-tabs-nav {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.c-tabs-nav__link {
+  text-decoration: none;
+  color: #FFF;
+  opacity: 0.7;  
+  margin-right: 25px;
+  padding: 10px 15px;
+}
+
+.c-tabs-nav__link.is-active {
+  opacity: 1;
+}
+
+/**
+ * Tab
+ */
+.c-tab {
+  display: none;
+  border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.c-tab.is-active {
+  display: block;
+}
+
+.c-tab__content {
+  padding: 20px;
+  position: relative;
+  animation: showTab 300ms ease-in-out both;
+}
+
+@keyframes showTab{
+  from {opacity: 0; top: 5px}
+  to {opacity: 1; top: 0;}
+}
+
+.c-tab-nav-marker {
+  min-height: 4px;
+  background-color: #FFF;
+  position: absolute;
+  bottom: -10px;
+  transition: all 0.3s ease-out;
+}
+
+.box3 .goman{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.box4{
+  margin-top: -20px;
+  min-height: 500px;
+  background: url(../../images/about.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  font-style: bold;
+}
+.box4 h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #0971A6;
+}
+.box5{
+  min-height: 400px;
+}
+.box5 #service{
+  padding-top: 50px;
+}
+.box5 .re{
+  text-align: center;
+  padding-top: 15%;
+}
+.box5 h1:after{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    margin: 15px 0;  
+}
+.box5 i{
+  color: #fa0;
+}
+.box6{
+  min-height: 300px;
+  background-color: #0f0;
+  text-align: center;
+  transform: skewY(5deg);
+  background-color: #222222;
+  background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;  
+}
+.box6 h1{
+  padding: 20px;
+  font-size: 4em;
+  color: #fff;
+  font-family: Iceland;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+.box6 h1:after{
+   display: block;
+   content: "";
+   width: 50px;
+   height: 2px;
+   background-color: #fff;
+   margin: 15px auto; 
+}
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+.box7 #e1{
+  padding-top: 50px;
+}
+.box7 #dt2{
+  width: 100%;
+}
+.box8{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.box8 img{
+  border-radius: 50%;
+}
+.box9{
+} 
+.box9 .tk{
+  min-height: 500px;
+  background: url(../../images/Tokyo-Marathon-2018-Japan-1.jpg) no-repeat;
+  background-attachment: fixed;
+
+}
+.box10{
+  min-height: 700px;
+  text-align: center;
+  background:url(../../images/back02.jpg);
+  background-attachment: fixed; 
+}
+.box10 ul{
+  list-style-type: none;
+}
+.box10 ul li{
+  padding-bottom: 10px;
+}
+.box10 i{
+  color: #00050A;
+}
+.box10 h1{
+  padding: 20px;
+}
+.box11{
+  text-align: center;
+  min-height: 500px;
+  background-color: #00CEB9;
+  margin-top: -100px;
+  transform: skewY(-5deg);
+  color: #fff;
+}
+.box11 h1{
+  padding:20px;
+}
+.box11 ul:nth-child(1){
+  padding: 10px;
+  font-size: 2em;
+}
+.box11 ul{
+  list-style: none;
+}
+.box11 li{
+  display: inline-block;
+}
+.box11 img{
+  transform: skewY(5deg);
+  border-radius: 50%;
+}
+.box12 h1{
+  text-align: center;
+}
+.boxFooter{
+  min-height: 50px;
+  text-align: center;
+  background-color:#000409;
+  opacity: .5;
+  color: #fff;
+}
+.boxFooter p{
+  display: inline-block;
+  padding-top: 25px;
+}
+.top{
+  width: 40px;
+  height: 40px;
+  background-color: #494A5F;
+  border-radius: 50px;
+  color:#fff;
+  position: fixed;
+  bottom:50px;
+  right: 40px;
+  transition: .5s;
+  text-indent: -9999px;
+}
+.home .triangle{
+    border-right: 3px solid; 
+    border-bottom: 3px solid;
+    width: 10px; 
+    height: 10px;
+    transform: rotate(45deg);   
+    margin:auto;
+    margin-top: 15px;
+
+}
+.home .top:hover{
+    filter: brightness(0.8);
+    transform: rotate(180deg);
+}
+
+
+@media screen and (max-width:767px){
+    h1,h2{
+      text-align: center;
+    }
+
+    .box1{
+        min-height: 800px;
+    }
+    .box3 #page {
+          width: 100%;
+          margin: 0 auto;
+          min-height: 100vh;
+    }
+    .c-tabs-nav__link {
+      padding: 0 0;
+    } 
+    .box3 .goman svg{
+      width: 200px;
+      height: 100px;
+      margin-left:-50px;
+    }
+    .box5 h1:after{
+      margin: 15px 141px;  
+}    
+    .box7 #dt1{
+      width: 100%;
+    }
+    .box9 .tk{
+      background-position:center center;
+    }
+    .box11 #xx li{
+      margin-bottom: 25px;
+    }
+    .home{
+      visibility: hidden;
+    }
+       
+
+}
